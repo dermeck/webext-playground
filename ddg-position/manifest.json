@@ -3,9 +3,7 @@
     "version": "0.1",
     "name": "DDG position",
 
-
     "description": "Places a marker with the position of a Google result link in DDG result.",
-
 
     "content_scripts": [
         {
@@ -15,6 +13,6 @@
     ],
 
     "permissions": [
-        "*://duckduckgo.com/html/*"
+        "<all_urls>"
     ]
 }
