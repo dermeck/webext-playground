@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "version": "0.1",
+    "name": "Test different UI Elements",
+
+    "icons": {
+        "48": "tool.svg"
+    },
+
+    "browser_action": {
+        "default_icon": "tool.svg",
+        "default_title": "moep",
+        "default_popup": "popup/popup.html"
+      }
+}
